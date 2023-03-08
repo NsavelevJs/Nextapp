@@ -2,8 +2,8 @@ import React from "react";
 
 
 
-export default function Header() {
+export default function Header({ app }) {
   return (
-    <div className="header">Stuff For Sale</div>
+    <div className="header">Blogaway | {app.name}</div>
   )
 }
